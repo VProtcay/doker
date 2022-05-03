@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  postgresql:
+    image: postgres:13.1-alpine
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=youneverguessevenifwouldgonnatry
+      - POSTGRES_USER=mrtotalsecurity
+      - POSTGRES_PASSWORD=CzmGtmRjc3cLGV7KXza294520qCMYXuF
